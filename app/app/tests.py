@@ -1,5 +1,8 @@
 """
 Sample Tests
+
+Corro los test en el contenedor:
+docker-compose run --rm app sh -c "python manage.py test"
 """
 
 from django.test import SimpleTestCase
